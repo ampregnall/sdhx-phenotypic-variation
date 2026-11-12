@@ -1,0 +1,637 @@
+CHROM	POS	REF	ALT	ID	Gene	VEP	ClinVar	AutoGVP	AlphaMissense	Consequence
+5	218356	A	G	chr5_218356_A_G	SDHA	start_lost	Pathogenic	Pathogenic	.	pLoF
+5	218357	T	C	chr5_218357_T_C	SDHA	start_lost	Pathogenic	Pathogenic	.	pLoF
+5	218357	T	G	chr5_218357_T_G	SDHA	start_lost	Pathogenic	Pathogenic	.	pLoF
+5	218360	C	T	chr5_218360_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.179	Other Missense
+5	218362	G	C	chr5_218362_G_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.191	Other Missense
+5	218363	G	C	chr5_218363_G_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.072	Other Missense
+5	218368	C	T	chr5_218368_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.356	Other Missense
+5	218371	G	A	chr5_218371_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.152	Other Missense
+5	218372	G	T	chr5_218372_G_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.101	Other Missense
+5	218378	C	G	chr5_218378_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.211	Other Missense
+5	218380	C	T	chr5_218380_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.446	Other Missense
+5	218395	C	CGGCGCCT	chr5_218395_C_CGGCGCCT	SDHA	frameshift_variant	Pathogenic	Pathogenic	-1	pLoF
+5	218396	G	C	chr5_218396_G_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.191	Other Missense
+5	223509	C	T	chr5_223509_C_T	SDHA	stop_gained	Pathogenic	Pathogenic	.	pLoF
+5	223510	G	A	chr5_223510_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.204	Other Missense
+5	223513	G	GT	chr5_223513_G_GT	SDHA	frameshift_variant	Pathogenic	Pathogenic	-1	pLoF
+5	223519	A	G	chr5_223519_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.238	Other Missense
+5	223524	A	T	chr5_223524_A_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.11	Other Missense
+5	223538	C	A	chr5_223538_C_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.101	Other Missense
+5	223539	A	AAG	chr5_223539_A_AAG	SDHA	frameshift_variant	Pathogenic	Pathogenic	-1	pLoF
+5	223543	G	A	chr5_223543_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.084	Other Missense
+5	223545	G	A	chr5_223545_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.074	Other Missense
+5	223567	C	A	chr5_223567_C_A	SDHA	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.184	Other Missense
+5	223567	C	T	chr5_223567_C_T	SDHA	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.232	Other Missense
+5	223569	G	A	chr5_223569_G_A	SDHA	splice_donor_variant	Likely_pathogenic	Likely_pathogenic	.	pLoF
+5	224363	T	A	chr5_224363_T_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.184	Other Missense
+5	224364	C	T	chr5_224364_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.662	Other Missense
+5	224385	A	G	chr5_224385_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.716	Other Missense
+5	224400	C	T	chr5_224400_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.405	Other Missense
+5	224414	G	A	chr5_224414_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.82	Damaging Missense
+5	224432	C	T	chr5_224432_C_T	SDHA	stop_gained	Pathogenic	Pathogenic	.	pLoF
+5	224433	G	A	chr5_224433_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.914	Damaging Missense
+5	224465	A	G	chr5_224465_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.29	Other Missense
+5	224469	C	T	chr5_224469_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.812	Damaging Missense
+5	224475	G	A	chr5_224475_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.985	Damaging Missense
+5	224496	C	T	chr5_224496_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.907	Damaging Missense
+5	224499	G	C	chr5_224499_G_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.971	Damaging Missense
+5	224519	C	T	chr5_224519_C_T	SDHA	stop_gained&splice_region_variant	Pathogenic	Pathogenic	.	pLoF
+5	225425	A	G	chr5_225425_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.267	Other Missense
+5	225429	A	G	chr5_225429_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.308	Other Missense
+5	225449	G	T	chr5_225449_G_T	SDHA	stop_gained	Pathogenic	Pathogenic	.	pLoF
+5	225459	A	G	chr5_225459_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.108	Other Missense
+5	225462	G	A	chr5_225462_G_A	SDHA	stop_gained	Pathogenic	Pathogenic	.	pLoF
+5	225476	T	C	chr5_225476_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.85	Damaging Missense
+5	225477	A	G	chr5_225477_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.663	Other Missense
+5	225485	G	A	chr5_225485_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.948	Damaging Missense
+5	225497	G	A	chr5_225497_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.993	Damaging Missense
+5	225509	G	A	chr5_225509_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.977	Damaging Missense
+5	225518	G	A	chr5_225518_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.622	Other Missense
+5	225524	C	T	chr5_225524_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.586	Other Missense
+5	225527	T	C	chr5_225527_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.703	Other Missense
+5	225530	A	G	chr5_225530_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.696	Other Missense
+5	225534	C	T	chr5_225534_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.696	Other Missense
+5	225543	C	T	chr5_225543_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.956	Damaging Missense
+5	225548	G	A	chr5_225548_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.079	Other Missense
+5	225554	G	A	chr5_225554_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.841	Damaging Missense
+5	225557	G	A	chr5_225557_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.06	Other Missense
+5	225560	G	A	chr5_225560_G_A	SDHA	missense_variant&splice_region_variant	Pathogenic	Pathogenic	0.985	pLoF
+5	225563	G	A	chr5_225563_G_A	SDHA	splice_donor_variant	Likely_pathogenic	Likely_pathogenic	.	pLoF
+5	225879	ACAG	A	chr5_225879_ACAG_A	SDHA	splice_acceptor_variant&intron_variant	Pathogenic	Pathogenic	-1	pLoF
+5	225890	A	G	chr5_225890_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.292	Other Missense
+5	225892	T	G	chr5_225892_T_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.778	Other Missense
+5	225894	T	G	chr5_225894_T_G	SDHA	stop_gained	Pathogenic	Pathogenic	.	pLoF
+5	225895	G	A	chr5_225895_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.975	Damaging Missense
+5	225906	T	G	chr5_225906_T_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.999	Damaging Missense
+5	225925	A	C	chr5_225925_A_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.114	Other Missense
+5	225938	G	A	chr5_225938_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.99	Damaging Missense
+5	225940	G	T	chr5_225940_G_T	SDHA	missense_variant		Uncertain_significance	0.401	Other Missense
+5	225977	G	A	chr5_225977_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.927	Damaging Missense
+5	225979	C	G	chr5_225979_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.686	Other Missense
+5	225986	A	G	chr5_225986_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.247	Other Missense
+5	225989	G	A	chr5_225989_G_A	SDHA	missense_variant	Pathogenic	Pathogenic	0.996	pLoF
+5	226009	C	T	chr5_226009_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.972	Damaging Missense
+5	226010	G	A	chr5_226010_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.841	Damaging Missense
+5	226021	T	A	chr5_226021_T_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.809	Damaging Missense
+5	226022	C	T	chr5_226022_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.924	Damaging Missense
+5	226024	C	A	chr5_226024_C_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.481	Other Missense
+5	226033	A	G	chr5_226033_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.549	Other Missense
+5	226039	T	C	chr5_226039_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.986	Damaging Missense
+5	226043	GA	G	chr5_226043_GA_G	SDHA	frameshift_variant		Likely_pathogenic	-1	pLoF
+5	228185	T	A	chr5_228185_T_A	SDHA	missense_variant&splice_region_variant		Uncertain_significance	0.609	Other Missense
+5	228204	G	A	chr5_228204_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.205	Other Missense
+5	228207	A	G	chr5_228207_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.91	Damaging Missense
+5	228219	A	G	chr5_228219_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.929	Damaging Missense
+5	228227	T	G	chr5_228227_T_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.25	Other Missense
+5	228228	TG	T	chr5_228228_TG_T	SDHA	frameshift_variant	Pathogenic	Pathogenic	-1	pLoF
+5	228247	TG	T	chr5_228247_TG_T	SDHA	frameshift_variant	Pathogenic	Pathogenic	-1	pLoF
+5	228251	G	C	chr5_228251_G_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.143	Other Missense
+5	228257	C	T	chr5_228257_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.097	Other Missense
+5	228258	G	A	chr5_228258_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.152	Other Missense
+5	228267	T	C	chr5_228267_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.358	Other Missense
+5	228269	G	A	chr5_228269_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.404	Other Missense
+5	228275	T	G	chr5_228275_T_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.642	Other Missense
+5	228278	A	C	chr5_228278_A_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.077	Other Missense
+5	228287	G	A	chr5_228287_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.993	Damaging Missense
+5	228293	A	G	chr5_228293_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.164	Other Missense
+5	228297	A	G	chr5_228297_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.974	Damaging Missense
+5	228299	C	T	chr5_228299_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.735	Other Missense
+5	228300	G	A	chr5_228300_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.837	Damaging Missense
+5	228302	A	G	chr5_228302_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.19	Other Missense
+5	230883	G	A	chr5_230883_G_A	SDHA	missense_variant	Pathogenic	Pathogenic	0.996	pLoF
+5	230897	C	G	chr5_230897_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.954	Damaging Missense
+5	230898	A	G	chr5_230898_A_G	SDHA	missense_variant		Uncertain_significance	0.879	Damaging Missense
+5	230923	C	T	chr5_230923_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.966	Damaging Missense
+5	230927	C	G	chr5_230927_C_G	SDHA	synonymous_variant		Likely_benign	-1	Synonymous Variant
+5	230928	G	A	chr5_230928_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.951	Damaging Missense
+5	230931	G	A	chr5_230931_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.857	Damaging Missense
+5	230934	A	G	chr5_230934_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.177	Other Missense
+5	230935	C	T	chr5_230935_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.152	Other Missense
+5	230942	G	T	chr5_230942_G_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.873	Damaging Missense
+5	230944	T	A	chr5_230944_T_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.935	Damaging Missense
+5	230946	A	G	chr5_230946_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.126	Other Missense
+5	230947	C	A	chr5_230947_C_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.293	Other Missense
+5	230958	C	G	chr5_230958_C_G	SDHA	missense_variant		Uncertain_significance	0.305	Other Missense
+5	230959	T	C	chr5_230959_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.994	Damaging Missense
+5	230966	C	G	chr5_230966_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.983	Damaging Missense
+5	230976	G	A	chr5_230976_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.998	Damaging Missense
+5	230977	A	T	chr5_230977_A_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.998	Damaging Missense
+5	230990	C	G	chr5_230990_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	1	Damaging Missense
+5	230999	A	AG	chr5_230999_A_AG	SDHA	frameshift_variant&splice_region_variant		Likely_pathogenic	-1	pLoF
+5	233483	A	G	chr5_233483_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.906	Damaging Missense
+5	233488	G	T	chr5_233488_G_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.224	Other Missense
+5	233495	G	A	chr5_233495_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.997	Damaging Missense
+5	233500	A	G	chr5_233500_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.381	Other Missense
+5	233504	C	T	chr5_233504_C_T	SDHA	missense_variant	Likely_pathogenic	Likely_pathogenic	0.995	pLoF
+5	233516	G	A	chr5_233516_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.999	Damaging Missense
+5	233516	G	C	chr5_233516_G_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	1	Damaging Missense
+5	233522	A	C	chr5_233522_A_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.987	Damaging Missense
+5	233533	C	T	chr5_233533_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.932	Damaging Missense
+5	233535	C	A	chr5_233535_C_A	SDHA	synonymous_variant		Likely_benign	-1	Synonymous Variant
+5	233536	A	C	chr5_233536_A_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.136	Other Missense
+5	233536	A	G	chr5_233536_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.095	Other Missense
+5	233551	G	A	chr5_233551_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.777	Other Missense
+5	233566	C	T	chr5_233566_C_T	SDHA	stop_gained	Pathogenic	Pathogenic	.	pLoF
+5	233567	G	A	chr5_233567_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.431	Other Missense
+5	233575	C	G	chr5_233575_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.82	Damaging Missense
+5	233575	C	T	chr5_233575_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.921	Damaging Missense
+5	233581	G	A	chr5_233581_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.85	Damaging Missense
+5	233582	C	T	chr5_233582_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.749	Other Missense
+5	233593	G	A	chr5_233593_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.994	Damaging Missense
+5	233597	C	T	chr5_233597_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.998	Damaging Missense
+5	233615	G	A	chr5_233615_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.965	Damaging Missense
+5	233621	T	C	chr5_233621_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.948	Damaging Missense
+5	233623	A	G	chr5_233623_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.479	Other Missense
+5	233623	A	T	chr5_233623_A_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.411	Other Missense
+5	233636	G	A	chr5_233636_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.129	Other Missense
+5	235163	GATCAC	G	chr5_235163_GATCAC_G	SDHA	frameshift_variant		Likely_pathogenic	-1	pLoF
+5	235169	G	A	chr5_235169_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.112	Other Missense
+5	235178	C	G	chr5_235178_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.569	Other Missense
+5	235182	T	C	chr5_235182_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.998	Damaging Missense
+5	235194	C	G	chr5_235194_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.47	Other Missense
+5	235206	T	C	chr5_235206_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.995	Damaging Missense
+5	235209	C	T	chr5_235209_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.223	Other Missense
+5	235211	A	G	chr5_235211_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.068	Other Missense
+5	235212	C	T	chr5_235212_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.077	Other Missense
+5	235214	C	T	chr5_235214_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.835	Damaging Missense
+5	235215	G	A	chr5_235215_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.738	Other Missense
+5	235223	G	A	chr5_235223_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.872	Damaging Missense
+5	235229	T	G	chr5_235229_T_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.244	Other Missense
+5	235239	C	T	chr5_235239_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.897	Damaging Missense
+5	235251	C	G	chr5_235251_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.599	Other Missense
+5	235256	G	A	chr5_235256_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.731	Other Missense
+5	235256	G	T	chr5_235256_G_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.875	Damaging Missense
+5	235262	G	A	chr5_235262_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.209	Other Missense
+5	235262	G	T	chr5_235262_G_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.969	Damaging Missense
+5	235266	C	T	chr5_235266_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.202	Other Missense
+5	235267	G	C	chr5_235267_G_C	SDHA	synonymous_variant		Likely_benign	-1	Synonymous Variant
+5	235275	C	T	chr5_235275_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.772	Other Missense
+5	235278	T	A	chr5_235278_T_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.998	Damaging Missense
+5	235283	G	C	chr5_235283_G_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.962	Damaging Missense
+5	235295	G	A	chr5_235295_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.933	Damaging Missense
+5	235299	A	C	chr5_235299_A_C	SDHA	missense_variant		Likely_pathogenic	0.997	pLoF
+5	235302	A	G	chr5_235302_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.984	Damaging Missense
+5	235308	T	C	chr5_235308_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.994	Damaging Missense
+5	235313	G	A	chr5_235313_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.967	Damaging Missense
+5	235313	G	T	chr5_235313_G_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.988	Damaging Missense
+5	235325	A	G	chr5_235325_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.224	Other Missense
+5	235329	A	G	chr5_235329_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.23	Other Missense
+5	235334	G	A	chr5_235334_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.998	Damaging Missense
+5	236440	G	A	chr5_236440_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.127	Other Missense
+5	236440	G	T	chr5_236440_G_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.153	Other Missense
+5	236459	T	C	chr5_236459_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.112	Other Missense
+5	236467	G	A	chr5_236467_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.554	Other Missense
+5	236486	A	G	chr5_236486_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.998	Damaging Missense
+5	236491	G	A	chr5_236491_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.843	Damaging Missense
+5	236507	A	G	chr5_236507_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.998	Damaging Missense
+5	236518	C	T	chr5_236518_C_T	SDHA	missense_variant	Likely_pathogenic	Likely_pathogenic	0.998	pLoF
+5	236519	G	A	chr5_236519_G_A	SDHA	missense_variant	Pathogenic	Pathogenic	0.994	pLoF
+5	236521	C	T	chr5_236521_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.997	Damaging Missense
+5	236524	G	A	chr5_236524_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	1	Damaging Missense
+5	236560	C	T	chr5_236560_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.888	Damaging Missense
+5	236561	G	A	chr5_236561_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.659	Other Missense
+5	236580	C	G	chr5_236580_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.296	Other Missense
+5	236581	G	A	chr5_236581_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.094	Other Missense
+5	236583	A	T	chr5_236583_A_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.205	Other Missense
+5	236595	G	C	chr5_236595_G_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.242	Other Missense
+5	236596	C	T	chr5_236596_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.346	Other Missense
+5	236597	C	T	chr5_236597_C_T	SDHA	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.266	Other Missense
+5	240360	G	A	chr5_240360_G_A	SDHA	missense_variant&splice_region_variant		Uncertain_significance	0.112	Other Missense
+5	240361	A	T	chr5_240361_A_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.165	Other Missense
+5	240375	A	G	chr5_240375_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.073	Other Missense
+5	240378	A	G	chr5_240378_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.133	Other Missense
+5	240384	A	C	chr5_240384_A_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.113	Other Missense
+5	240387	G	A	chr5_240387_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.155	Other Missense
+5	240393	G	A	chr5_240393_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.42	Other Missense
+5	240396	G	T	chr5_240396_G_T	SDHA	stop_gained	Pathogenic	Pathogenic	.	pLoF
+5	240397	A	G	chr5_240397_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.146	Other Missense
+5	240416	C	G	chr5_240416_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.639	Other Missense
+5	240418	A	G	chr5_240418_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.062	Other Missense
+5	240441	A	G	chr5_240441_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.059	Other Missense
+5	240451	C	G	chr5_240451_C_G	SDHA	missense_variant		Uncertain_significance	0.751	Other Missense
+5	240457	T	C	chr5_240457_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.993	Damaging Missense
+5	240459	C	T	chr5_240459_C_T	SDHA	stop_gained	Pathogenic	Pathogenic	.	pLoF
+5	240460	G	A	chr5_240460_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.952	Damaging Missense
+5	240466	G	C	chr5_240466_G_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.092	Other Missense
+5	250997	G	A	chr5_250997_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.984	Damaging Missense
+5	251011	C	T	chr5_251011_C_T	SDHA	missense_variant	Pathogenic	Pathogenic	0.953	pLoF
+5	251019	C	T	chr5_251019_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.96	Damaging Missense
+5	251020	G	A	chr5_251020_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.977	Damaging Missense
+5	251025	G	C	chr5_251025_G_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.731	Other Missense
+5	251031	G	A	chr5_251031_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.226	Other Missense
+5	251036	G	T	chr5_251036_G_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.976	Damaging Missense
+5	251037	C	G	chr5_251037_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.06	Other Missense
+5	251043	G	T	chr5_251043_G_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.973	Damaging Missense
+5	251049	G	A	chr5_251049_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.102	Other Missense
+5	251056	T	G	chr5_251056_T_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.82	Damaging Missense
+5	251068	A	G	chr5_251068_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.206	Other Missense
+5	251069	T	G	chr5_251069_T_G	SDHA	stop_gained	Pathogenic	Pathogenic	.	pLoF
+5	251081	G	C	chr5_251081_G_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.162	Other Missense
+5	251092	C	T	chr5_251092_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.206	Other Missense
+5	251097	G	A	chr5_251097_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.922	Damaging Missense
+5	251100	C	T	chr5_251100_C_T	SDHA	missense_variant	Likely_pathogenic	Likely_pathogenic	0.551	pLoF
+5	251101	G	A	chr5_251101_G_A	SDHA	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.166	Other Missense
+5	251103	G	C	chr5_251103_G_C	SDHA	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.937	Damaging Missense
+5	251106	G	C	chr5_251106_G_C	SDHA	splice_region_variant&intron_variant	Pathogenic	Pathogenic	-1	pLoF
+5	251337	G	A	chr5_251337_G_A	SDHA	splice_acceptor_variant	Likely_pathogenic	Likely_pathogenic	.	pLoF
+5	251347	G	A	chr5_251347_G_A	SDHA	stop_gained		Pathogenic	.	pLoF
+5	251353	C	T	chr5_251353_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.803	Damaging Missense
+5	251358	C	A	chr5_251358_C_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.433	Other Missense
+5	251361	G	A	chr5_251361_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.362	Other Missense
+5	251370	C	G	chr5_251370_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.336	Other Missense
+5	251397	G	A	chr5_251397_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.617	Other Missense
+5	251398	C	T	chr5_251398_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.864	Damaging Missense
+5	251410	T	C	chr5_251410_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.806	Damaging Missense
+5	251413	A	G	chr5_251413_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.071	Other Missense
+5	251415	G	A	chr5_251415_G_A	SDHA	missense_variant	Likely_pathogenic	Likely_pathogenic	0.994	pLoF
+5	251424	G	A	chr5_251424_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.146	Other Missense
+5	251425	C	T	chr5_251425_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.191	Other Missense
+5	251427	C	T	chr5_251427_C_T	SDHA	missense_variant	Pathogenic	Pathogenic	0.986	pLoF
+5	251428	G	A	chr5_251428_G_A	SDHA	missense_variant	Pathogenic	Pathogenic	0.98	pLoF
+5	251434	A	G	chr5_251434_A_G	SDHA	missense_variant		Uncertain_significance	0.979	Damaging Missense
+5	251439	C	T	chr5_251439_C_T	SDHA	missense_variant	Pathogenic	Pathogenic	0.982	pLoF
+5	251445	G	A	chr5_251445_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.948	Damaging Missense
+5	251448	C	G	chr5_251448_C_G	SDHA	missense_variant		Uncertain_significance	0.998	Damaging Missense
+5	254396	C	T	chr5_254396_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.962	Damaging Missense
+5	254433	G	A	chr5_254433_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.18	Other Missense
+5	254438	C	G	chr5_254438_C_G	SDHA	missense_variant		Uncertain_significance	0.072	Other Missense
+5	254447	C	T	chr5_254447_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.094	Other Missense
+5	254461	C	G	chr5_254461_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.941	Damaging Missense
+5	254484	A	G	chr5_254484_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.097	Other Missense
+5	254487	T	C	chr5_254487_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.25	Other Missense
+5	254492	G	A	chr5_254492_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.073	Other Missense
+5	254492	G	T	chr5_254492_G_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.115	Other Missense
+5	256332	A	G	chr5_256332_A_G	SDHA	splice_acceptor_variant	Likely_pathogenic	Likely_pathogenic	.	pLoF
+5	256335	T	C	chr5_256335_T_C	SDHA	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.672	Other Missense
+5	256340	C	G	chr5_256340_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.149	Other Missense
+5	256344	A	G	chr5_256344_A_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.123	Other Missense
+5	256355	G	A	chr5_256355_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.943	Damaging Missense
+5	256359	T	C	chr5_256359_T_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.319	Other Missense
+5	256361	G	A	chr5_256361_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.668	Other Missense
+5	256367	A	C	chr5_256367_A_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.271	Other Missense
+5	256368	C	G	chr5_256368_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.567	Other Missense
+5	256376	G	A	chr5_256376_G_A	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.149	Other Missense
+5	256386	G	C	chr5_256386_G_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.753	Other Missense
+5	256391	A	C	chr5_256391_A_C	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.091	Other Missense
+5	256398	C	T	chr5_256398_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.231	Other Missense
+5	256404	C	G	chr5_256404_C_G	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.364	Other Missense
+5	256413	C	T	chr5_256413_C_T	SDHA	missense_variant	Uncertain_significance	Uncertain_significance	0.648	Other Missense
+1	17018890	A	C	chr1_17018890_A_C	SDHB	synonymous_variant		Likely_benign	-1	Synonymous Variant
+1	17018891	G	C	chr1_17018891_G_C	SDHB	missense_variant		Uncertain_significance	0.084	Other Missense
+1	17018906	T	C	chr1_17018906_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.184	Other Missense
+1	17018910	T	C	chr1_17018910_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.08	Other Missense
+1	17018930	T	C	chr1_17018930_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.271	Other Missense
+1	17018946	C	G	chr1_17018946_C_G	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.995	Damaging Missense
+1	17018948	G	A	chr1_17018948_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.98	Damaging Missense
+1	17018953	C	T	chr1_17018953_C_T	SDHB	synonymous_variant		Likely_benign	-1	Synonymous Variant
+1	17022608	C	G	chr1_17022608_C_G	SDHB	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.997	Damaging Missense
+1	17022612	G	A	chr1_17022612_G_A	SDHB	missense_variant	Likely_pathogenic	Likely_pathogenic	0.986	pLoF
+1	17022629	G	C	chr1_17022629_G_C	SDHB	missense_variant	Likely_pathogenic	Likely_pathogenic	0.998	pLoF
+1	17022634	T	C	chr1_17022634_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.628	Other Missense
+1	17022637	T	C	chr1_17022637_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.569	Other Missense
+1	17022645	C	A	chr1_17022645_C_A	SDHB	missense_variant	Likely_pathogenic	Likely_pathogenic	0.999	pLoF
+1	17022648	C	T	chr1_17022648_C_T	SDHB	missense_variant	Pathogenic	Pathogenic	0.843	pLoF
+1	17022653	TAGAG	T	chr1_17022653_TAGAG_T	SDHB	frameshift_variant	Pathogenic	Pathogenic	-1	pLoF
+1	17022657	G	C	chr1_17022657_G_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.312	Other Missense
+1	17022660	A	G	chr1_17022660_A_G	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.919	Damaging Missense
+1	17022663	G	C	chr1_17022663_G_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.416	Other Missense
+1	17022664	G	A	chr1_17022664_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.19	Other Missense
+1	17022678	G	A	chr1_17022678_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.169	Other Missense
+1	17022684	C	A	chr1_17022684_C_A	SDHB	missense_variant	Pathogenic	Pathogenic	0.981	pLoF
+1	17022719	C	T	chr1_17022719_C_T	SDHB	stop_gained	Pathogenic	Pathogenic	.	pLoF
+1	17022722	G	A	chr1_17022722_G_A	SDHB	synonymous_variant		Likely_benign	-1	Synonymous Variant
+1	17022723	C	A	chr1_17022723_C_A	SDHB	missense_variant	Likely_pathogenic	Likely_pathogenic	0.993	pLoF
+1	17022723	C	T	chr1_17022723_C_T	SDHB	missense_variant	Likely_pathogenic	Likely_pathogenic	0.969	pLoF
+1	17022724	G	A	chr1_17022724_G_A	SDHB	missense_variant	Pathogenic	Pathogenic	0.972	pLoF
+1	17022726	T	C	chr1_17022726_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.52	Other Missense
+1	17022729	G	A	chr1_17022729_G_A	SDHB	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.52	Other Missense
+1	17023986	G	A	chr1_17023986_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.965	Damaging Missense
+1	17023992	C	T	chr1_17023992_C_T	SDHB	missense_variant	Pathogenic	Pathogenic	0.999	pLoF
+1	17024008	C	T	chr1_17024008_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.856	Damaging Missense
+1	17024009	G	GT	chr1_17024009_G_GT	SDHB	frameshift_variant	Pathogenic	Pathogenic	-1	pLoF
+1	17024015	C	A	chr1_17024015_C_A	SDHB	missense_variant	Pathogenic	Pathogenic	0.997	pLoF
+1	17024028	C	T	chr1_17024028_C_T	SDHB	missense_variant	Pathogenic	Pathogenic	0.999	pLoF
+1	17024061	T	C	chr1_17024061_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.928	Damaging Missense
+1	17024062	C	A	chr1_17024062_C_A	SDHB	stop_gained	Pathogenic	Pathogenic	.	pLoF
+1	17024062	C	T	chr1_17024062_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.987	Damaging Missense
+1	17024068	G	A	chr1_17024068_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.64	Other Missense
+1	17024071	C	T	chr1_17024071_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.95	Damaging Missense
+1	17024076	T	C	chr1_17024076_T_C	SDHB	splice_acceptor_variant	Pathogenic	Pathogenic	.	pLoF
+1	17027759	C	T	chr1_17027759_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.909	Damaging Missense
+1	17027760	G	A	chr1_17027760_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.968	Damaging Missense
+1	17027762	T	C	chr1_17027762_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.388	Other Missense
+1	17027784	G	C	chr1_17027784_G_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.122	Other Missense
+1	17027797	CT	C	chr1_17027797_CT_C	SDHB	frameshift_variant	Pathogenic	Pathogenic	-1	pLoF
+1	17027801	G	A	chr1_17027801_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.174	Other Missense
+1	17027807	T	C	chr1_17027807_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.094	Other Missense
+1	17027808	C	T	chr1_17027808_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.08	Other Missense
+1	17027834	G	A	chr1_17027834_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.42	Other Missense
+1	17027843	T	C	chr1_17027843_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.908	Damaging Missense
+1	17027846	G	A	chr1_17027846_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.179	Other Missense
+1	17027849	T	C	chr1_17027849_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.699	Other Missense
+1	17027864	T	A	chr1_17027864_T_A	SDHB	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.922	Damaging Missense
+1	17028599	C	T	chr1_17028599_C_T	SDHB	splice_donor_variant	Pathogenic	Pathogenic	.	pLoF
+1	17028605	C	A	chr1_17028605_C_A	SDHB	missense_variant	Pathogenic	Pathogenic	0.972	pLoF
+1	17028605	C	T	chr1_17028605_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.184	Other Missense
+1	17028611	C	T	chr1_17028611_C_T	SDHB	missense_variant		Likely_pathogenic	0.986	pLoF
+1	17028620	C	T	chr1_17028620_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.851	Damaging Missense
+1	17028622	T	C	chr1_17028622_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.565	Other Missense
+1	17028628	T	C	chr1_17028628_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.955	Damaging Missense
+1	17028638	G	A	chr1_17028638_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.978	Damaging Missense
+1	17028640	T	C	chr1_17028640_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.381	Other Missense
+1	17028643	A	AT	chr1_17028643_A_AT	SDHB	frameshift_variant	Pathogenic	Pathogenic	-1	pLoF
+1	17028643	A	C	chr1_17028643_A_C	SDHB	missense_variant	Pathogenic	Pathogenic	0.992	pLoF
+1	17028644	T	G	chr1_17028644_T_G	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.456	Other Missense
+1	17028649	G	A	chr1_17028649_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.23	Other Missense
+1	17028654	C	CT	chr1_17028654_C_CT	SDHB	frameshift_variant		Likely_pathogenic	-1	pLoF
+1	17028667	G	A	chr1_17028667_G_A	SDHB	missense_variant		Uncertain_significance	0.199	Other Missense
+1	17028671	C	T	chr1_17028671_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.232	Other Missense
+1	17028673	A	G	chr1_17028673_A_G	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.713	Other Missense
+1	17028680	G	A	chr1_17028680_G_A	SDHB	stop_gained	Pathogenic	Pathogenic	.	pLoF
+1	17028692	G	C	chr1_17028692_G_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.681	Other Missense
+1	17028697	T	C	chr1_17028697_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.787	Other Missense
+1	17028706	T	C	chr1_17028706_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.081	Other Missense
+1	17028715	A	G	chr1_17028715_A_G	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.963	Damaging Missense
+1	17028716	T	C	chr1_17028716_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.363	Other Missense
+1	17028736	C	T	chr1_17028736_C_T	SDHB	missense_variant&splice_region_variant	Pathogenic	Pathogenic	0.998	pLoF
+1	17028739	G	C	chr1_17028739_G_C	SDHB	splice_region_variant&intron_variant	Pathogenic	Pathogenic	-1	pLoF
+1	17033058	A	T	chr1_17033058_A_T	SDHB	splice_donor_variant	Pathogenic	Pathogenic	.	pLoF
+1	17033059	C	T	chr1_17033059_C_T	SDHB	splice_donor_variant	Pathogenic	Pathogenic	.	pLoF
+1	17033060	C	T	chr1_17033060_C_T	SDHB	missense_variant&splice_region_variant	Pathogenic	Pathogenic	0.98	pLoF
+1	17033066	T	C	chr1_17033066_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.989	Damaging Missense
+1	17033077	C	T	chr1_17033077_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.973	Damaging Missense
+1	17033078	G	A	chr1_17033078_G_A	SDHB	stop_gained	Pathogenic	Pathogenic	.	pLoF
+1	17033079	G	C	chr1_17033079_G_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.981	Damaging Missense
+1	17033083	G	C	chr1_17033083_G_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.325	Other Missense
+1	17033089	G	A	chr1_17033089_G_A	SDHB	missense_variant		Uncertain_significance	0.937	Damaging Missense
+1	17033108	T	C	chr1_17033108_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.991	Damaging Missense
+1	17033109	A	C	chr1_17033109_A_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.475	Other Missense
+1	17033132	C	T	chr1_17033132_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.122	Other Missense
+1	17033138	G	T	chr1_17033138_G_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.337	Other Missense
+1	17044767	A	G	chr1_17044767_A_G	SDHB	missense_variant	Pathogenic	Pathogenic	0.965	pLoF
+1	17044778	A	C	chr1_17044778_A_C	SDHB	stop_gained	Pathogenic	Pathogenic	.	pLoF
+1	17044783	T	C	chr1_17044783_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.114	Other Missense
+1	17044784	C	G	chr1_17044784_C_G	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.547	Other Missense
+1	17044789	T	C	chr1_17044789_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.107	Other Missense
+1	17044806	G	A	chr1_17044806_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.089	Other Missense
+1	17044813	C	G	chr1_17044813_C_G	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.494	Other Missense
+1	17044818	T	A	chr1_17044818_T_A	SDHB	missense_variant	Likely_pathogenic	Likely_pathogenic	0.554	pLoF
+1	17044821	C	G	chr1_17044821_C_G	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.97	Damaging Missense
+1	17044824	C	T	chr1_17044824_C_T	SDHB	missense_variant	Pathogenic	Pathogenic	0.926	pLoF
+1	17044825	G	A	chr1_17044825_G_A	SDHB	stop_gained	Pathogenic	Pathogenic	.	pLoF
+1	17044825	G	C	chr1_17044825_G_C	SDHB	missense_variant	Pathogenic	Pathogenic	0.994	pLoF
+1	17044830	A	G	chr1_17044830_A_G	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.973	Damaging Missense
+1	17044831	T	C	chr1_17044831_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.073	Other Missense
+1	17044849	G	A	chr1_17044849_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.242	Other Missense
+1	17044851	G	A	chr1_17044851_G_A	SDHB	missense_variant		Uncertain_significance	0.208	Other Missense
+1	17044861	C	T	chr1_17044861_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.078	Other Missense
+1	17044872	TG	T	chr1_17044872_TG_T	SDHB	frameshift_variant	Pathogenic	Pathogenic	-1	pLoF
+1	17044882	G	A	chr1_17044882_G_A	SDHB	stop_gained	Pathogenic	Pathogenic	.	pLoF
+1	17044882	G	C	chr1_17044882_G_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.115	Other Missense
+1	17044888	C	G	chr1_17044888_C_G	SDHB	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.116	Other Missense
+1	17044888	C	T	chr1_17044888_C_T	SDHB	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.097	Other Missense
+1	17044896	T	C	chr1_17044896_T_C	SDHB	splice_region_variant&intron_variant	Likely_pathogenic	Likely_pathogenic	-1	pLoF
+1	17053947	C	A	chr1_17053947_C_A	SDHB	splice_donor_variant	Pathogenic	Pathogenic	.	pLoF
+1	17053947	C	T	chr1_17053947_C_T	SDHB	splice_donor_variant	Pathogenic	Pathogenic	.	pLoF
+1	17053953	G	C	chr1_17053953_G_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.074	Other Missense
+1	17053955	C	A	chr1_17053955_C_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.057	Other Missense
+1	17053962	C	G	chr1_17053962_C_G	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.172	Other Missense
+1	17053970	G	A	chr1_17053970_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.125	Other Missense
+1	17053970	G	T	chr1_17053970_G_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.118	Other Missense
+1	17053971	T	C	chr1_17053971_T_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.051	Other Missense
+1	17053973	G	C	chr1_17053973_G_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.096	Other Missense
+1	17053985	C	T	chr1_17053985_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.133	Other Missense
+1	17053989	G	A	chr1_17053989_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.308	Other Missense
+1	17053991	C	T	chr1_17053991_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.142	Other Missense
+1	17053997	G	A	chr1_17053997_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.134	Other Missense
+1	17054001	G	A	chr1_17054001_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.06	Other Missense
+1	17054006	A	C	chr1_17054006_A_C	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.066	Other Missense
+1	17054013	C	T	chr1_17054013_C_T	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.178	Other Missense
+1	17054015	G	A	chr1_17054015_G_A	SDHB	missense_variant	Uncertain_significance	Uncertain_significance	0.267	Other Missense
+1	17054019	T	A	chr1_17054019_T_A	SDHB	start_lost	Pathogenic	Pathogenic	.	pLoF
+1	161314409	G	A	chr1_161314409_G_A	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.286	Other Missense
+1	161314410	C	T	chr1_161314410_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.428	Other Missense
+1	161314412	G	A	chr1_161314412_G_A	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.271	Other Missense
+1	161314412	G	T	chr1_161314412_G_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.129	Other Missense
+1	161314413	C	T	chr1_161314413_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.282	Other Missense
+1	161314416	T	C	chr1_161314416_T_C	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.221	Other Missense
+1	161314420	G	T	chr1_161314420_G_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.077	Other Missense
+1	161323615	C	A	chr1_161323615_C_A	SDHC	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.085	Other Missense
+1	161323617	C	A	chr1_161323617_C_A	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.114	Other Missense
+1	161323618	G	A	chr1_161323618_G_A	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.089	Other Missense
+1	161323624	C	T	chr1_161323624_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.226	Other Missense
+1	161323627	C	G	chr1_161323627_C_G	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.141	Other Missense
+1	161323633	C	T	chr1_161323633_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.082	Other Missense
+1	161323636	C	T	chr1_161323636_C_T	SDHC	stop_gained	Pathogenic	Pathogenic	.	pLoF
+1	161323643	A	T	chr1_161323643_A_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.109	Other Missense
+1	161328403	C	G	chr1_161328403_C_G	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.097	Other Missense
+1	161328404	C	T	chr1_161328404_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.162	Other Missense
+1	161328416	C	T	chr1_161328416_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.184	Other Missense
+1	161328432	G	C	chr1_161328432_G_C	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.912	Damaging Missense
+1	161328434	A	C	chr1_161328434_A_C	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.14	Other Missense
+1	161328436	C	T	chr1_161328436_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.176	Other Missense
+1	161328437	G	A	chr1_161328437_G_A	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.087	Other Missense
+1	161328439	T	C	chr1_161328439_T_C	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.989	Damaging Missense
+1	161328446	A	G	chr1_161328446_A_G	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.091	Other Missense
+1	161328457	G	C	chr1_161328457_G_C	SDHC	missense_variant		Uncertain_significance	0.103	Other Missense
+1	161328466	C	T	chr1_161328466_C_T	SDHC	missense_variant	Pathogenic	Pathogenic	0.729	pLoF
+1	161328467	G	T	chr1_161328467_G_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.881	Damaging Missense
+1	161328482	A	G	chr1_161328482_A_G	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.939	Damaging Missense
+1	161328497	G	A	chr1_161328497_G_A	SDHC	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.17	Other Missense
+1	161340599	C	G	chr1_161340599_C_G	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.317	Other Missense
+1	161340611	C	T	chr1_161340611_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.091	Other Missense
+1	161340614	T	C	chr1_161340614_T_C	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.595	Other Missense
+1	161340619	A	G	chr1_161340619_A_G	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.135	Other Missense
+1	161340628	C	G	chr1_161340628_C_G	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.955	Damaging Missense
+1	161340629	G	A	chr1_161340629_G_A	SDHC	missense_variant	Pathogenic	Pathogenic	0.846	pLoF
+1	161340635	C	T	chr1_161340635_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.937	Damaging Missense
+1	161340638	G	A	chr1_161340638_G_A	SDHC	missense_variant	Pathogenic	Pathogenic	0.977	pLoF
+1	161340652	G	A	chr1_161340652_G_A	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.088	Other Missense
+1	161340653	C	T	chr1_161340653_C_T	SDHC	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.101	Other Missense
+1	161356685	C	A	chr1_161356685_C_A	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.121	Other Missense
+1	161356694	A	C	chr1_161356694_A_C	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.076	Other Missense
+1	161356694	A	G	chr1_161356694_A_G	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.071	Other Missense
+1	161356698	C	T	chr1_161356698_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.136	Other Missense
+1	161356713	C	T	chr1_161356713_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.467	Other Missense
+1	161356720	C	G	chr1_161356720_C_G	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.32	Other Missense
+1	161356727	T	G	chr1_161356727_T_G	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.093	Other Missense
+1	161356730	T	C	chr1_161356730_T_C	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.152	Other Missense
+1	161356761	G	C	chr1_161356761_G_C	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.251	Other Missense
+1	161356788	T	C	chr1_161356788_T_C	SDHC	missense_variant		Uncertain_significance	0.767	Other Missense
+1	161356799	T	C	chr1_161356799_T_C	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.724	Other Missense
+1	161356800	T	G	chr1_161356800_T_G	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.369	Other Missense
+1	161356802	C	T	chr1_161356802_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.576	Other Missense
+1	161356809	T	G	chr1_161356809_T_G	SDHC	missense_variant	Pathogenic	Pathogenic	0.822	pLoF
+1	161356812	A	G	chr1_161356812_A_G	SDHC	missense_variant	Pathogenic	Pathogenic	0.845	pLoF
+1	161356815	A	G	chr1_161356815_A_G	SDHC	missense_variant	Pathogenic	Pathogenic	0.958	pLoF
+1	161356822	G	A	chr1_161356822_G_A	SDHC	stop_gained	Pathogenic	Pathogenic	.	pLoF
+1	161356832	C	T	chr1_161356832_C_T	SDHC	stop_gained	Pathogenic	Pathogenic	.	pLoF
+1	161356841	G	T	chr1_161356841_G_T	SDHC	splice_donor_variant	Pathogenic	Pathogenic	.	pLoF
+1	161362335	G	A	chr1_161362335_G_A	SDHC	missense_variant		Uncertain_significance	0.967	Damaging Missense
+1	161362357	T	C	chr1_161362357_T_C	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.813	Damaging Missense
+1	161362358	T	G	chr1_161362358_T_G	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.162	Other Missense
+1	161362359	C	A	chr1_161362359_C_A	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.14	Other Missense
+1	161362360	C	T	chr1_161362360_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.253	Other Missense
+1	161362395	C	G	chr1_161362395_C_G	SDHC	missense_variant		Uncertain_significance	0.189	Other Missense
+1	161362399	C	T	chr1_161362399_C_T	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.959	Damaging Missense
+1	161362425	G	A	chr1_161362425_G_A	SDHC	missense_variant	Uncertain_significance	Uncertain_significance	0.125	Other Missense
+11	112086920	T	C	chr11_112086920_T_C	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.185	Other Missense
+11	112086927	T	G	chr11_112086927_T_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.105	Other Missense
+11	112086948	T	C	chr11_112086948_T_C	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.053	Other Missense
+11	112086956	C	G	chr11_112086956_C_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.082	Other Missense
+11	112087856	G	GC	chr11_112087856_G_GC	SDHD	frameshift_variant&splice_region_variant	Pathogenic	Pathogenic	-1	pLoF
+11	112087857	C	T	chr11_112087857_C_T	SDHD	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.114	Other Missense
+11	112087860	TG	T	chr11_112087860_TG_T	SDHD	frameshift_variant	Pathogenic	Pathogenic	-1	pLoF
+11	112087860	T	C	chr11_112087860_T_C	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.088	Other Missense
+11	112087889	G	C	chr11_112087889_G_C	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.113	Other Missense
+11	112087895	A	G	chr11_112087895_A_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.063	Other Missense
+11	112087905	T	G	chr11_112087905_T_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.2	Other Missense
+11	112087912	G	T	chr11_112087912_G_T	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.166	Other Missense
+11	112087916	C	T	chr11_112087916_C_T	SDHD	stop_gained	Pathogenic	Pathogenic	.	pLoF
+11	112087919	C	A	chr11_112087919_C_A	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.073	Other Missense
+11	112087920	C	T	chr11_112087920_C_T	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.083	Other Missense
+11	112087922	A	C	chr11_112087922_A_C	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.064	Other Missense
+11	112087922	A	G	chr11_112087922_A_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.064	Other Missense
+11	112087926	C	T	chr11_112087926_C_T	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.091	Other Missense
+11	112087943	CAGCACAT	C	chr11_112087943_CAGCACAT_C	SDHD	frameshift_variant		Likely_pathogenic	-1	pLoF
+11	112087944	A	G	chr11_112087944_A_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.065	Other Missense
+11	112087962	C	T	chr11_112087962_C_T	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.098	Other Missense
+11	112088902	G	A	chr11_112088902_G_A	SDHD	missense_variant	Likely_pathogenic	Likely_pathogenic	0.801	pLoF
+11	112088906	G	A	chr11_112088906_G_A	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.279	Other Missense
+11	112088906	G	T	chr11_112088906_G_T	SDHD	missense_variant	Likely_pathogenic	Likely_pathogenic	0.902	pLoF
+11	112088914	A	G	chr11_112088914_A_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.198	Other Missense
+11	112088930	G	C	chr11_112088930_G_C	SDHD	missense_variant		Uncertain_significance	0.101	Other Missense
+11	112088939	C	T	chr11_112088939_C_T	SDHD	missense_variant	Pathogenic	Pathogenic	0.605	pLoF
+11	112088952	G	C	chr11_112088952_G_C	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.084	Other Missense
+11	112088975	A	G	chr11_112088975_A_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.227	Other Missense
+11	112088978	C	G	chr11_112088978_C_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.115	Other Missense
+11	112088978	C	T	chr11_112088978_C_T	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.395	Other Missense
+11	112088987	C	T	chr11_112088987_C_T	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.174	Other Missense
+11	112088995	A	G	chr11_112088995_A_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.164	Other Missense
+11	112089002	A	C	chr11_112089002_A_C	SDHD	missense_variant	Likely_pathogenic	Likely_pathogenic	0.757	pLoF
+11	112089011	G	A	chr11_112089011_G_A	SDHD	stop_gained&splice_region_variant	Pathogenic	Pathogenic	.	pLoF
+11	112094810	T	C	chr11_112094810_T_C	SDHD	missense_variant	Likely_pathogenic	Likely_pathogenic	0.833	pLoF
+11	112094818	G	A	chr11_112094818_G_A	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.111	Other Missense
+11	112094821	G	A	chr11_112094821_G_A	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.081	Other Missense
+11	112094823	TACTG	T	chr11_112094823_TACTG_T	SDHD	frameshift_variant	Pathogenic	Pathogenic	-1	pLoF
+11	112094825	C	G	chr11_112094825_C_G	SDHD	missense_variant		Uncertain_significance	0.202	Other Missense
+11	112094834	T	C	chr11_112094834_T_C	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.361	Other Missense
+11	112094837	A	G	chr11_112094837_A_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.066	Other Missense
+11	112094864	A	G	chr11_112094864_A_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.073	Other Missense
+11	112094867	C	G	chr11_112094867_C_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.08	Other Missense
+11	112094876	T	C	chr11_112094876_T_C	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.276	Other Missense
+11	112094890	T	G	chr11_112094890_T_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.058	Other Missense
+11	112094899	G	C	chr11_112094899_G_C	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.851	Damaging Missense
+11	112094911	T	C	chr11_112094911_T_C	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.255	Other Missense
+11	112094918	A	G	chr11_112094918_A_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.19	Other Missense
+11	112094921	A	G	chr11_112094921_A_G	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.252	Other Missense
+11	112094921	A	T	chr11_112094921_A_T	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.155	Other Missense
+11	112094929	G	A	chr11_112094929_G_A	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.705	Other Missense
+11	112094943	A	C	chr11_112094943_A_C	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.613	Other Missense
+11	112094951	C	T	chr11_112094951_C_T	SDHD	missense_variant	Uncertain_significance	Uncertain_significance	0.152	Other Missense
+11	112094962	A	AAGCTCTGACCT	chr11_112094962_A_AAGCTCTGACCT	SDHD	stop_gained&frameshift_variant	Uncertain_significance	Uncertain_significance	-1	pLoF
+11	61430151	C	A	chr11_61430151_C_A	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.244	Other Missense
+11	61430151	C	T	chr11_61430151_C_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.197	Other Missense
+11	61430153	G	T	chr11_61430153_G_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.129	Other Missense
+11	61430154	T	C	chr11_61430154_T_C	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.096	Other Missense
+11	61430157	CT	C	chr11_61430157_CT_C	SDHAF2	frameshift_variant		Likely_pathogenic	-1	pLoF
+11	61430159	A	G	chr11_61430159_A_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.056	Other Missense
+11	61430169	C	A	chr11_61430169_C_A	SDHAF2	stop_gained	Likely_pathogenic	Likely_pathogenic	.	pLoF
+11	61430169	C	G	chr11_61430169_C_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.13	Other Missense
+11	61430181	T	C	chr11_61430181_T_C	SDHAF2	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.092	Other Missense
+11	61430184	T	A	chr11_61430184_T_A	SDHAF2	splice_donor_variant		Uncertain_significance	.	pLoF
+11	61437623	A	G	chr11_61437623_A_G	SDHAF2	splice_acceptor_variant	Pathogenic	Pathogenic	.	pLoF
+11	61437624	G	C	chr11_61437624_G_C	SDHAF2	splice_acceptor_variant	Pathogenic	Pathogenic	.	pLoF
+11	61437625	A	T	chr11_61437625_A_T	SDHAF2	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.081	Other Missense
+11	61437634	C	G	chr11_61437634_C_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.062	Other Missense
+11	61437640	A	G	chr11_61437640_A_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.119	Other Missense
+11	61437648	C	A	chr11_61437648_C_A	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.122	Other Missense
+11	61437654	G	T	chr11_61437654_G_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.06	Other Missense
+11	61437684	A	T	chr11_61437684_A_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.15	Other Missense
+11	61437686	G	A	chr11_61437686_G_A	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.086	Other Missense
+11	61437686	G	T	chr11_61437686_G_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.17	Other Missense
+11	61437691	T	C	chr11_61437691_T_C	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.157	Other Missense
+11	61437709	A	G	chr11_61437709_A_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.061	Other Missense
+11	61437718	C	T	chr11_61437718_C_T	SDHAF2	stop_gained	Pathogenic	Pathogenic	.	pLoF
+11	61437721	A	G	chr11_61437721_A_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.184	Other Missense
+11	61437727	A	G	chr11_61437727_A_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.063	Other Missense
+11	61437740	C	T	chr11_61437740_C_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.214	Other Missense
+11	61437746	C	T	chr11_61437746_C_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.512	Other Missense
+11	61437751	T	C	chr11_61437751_T_C	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.985	Damaging Missense
+11	61437763	A	G	chr11_61437763_A_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.079	Other Missense
+11	61437775	A	G	chr11_61437775_A_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.06	Other Missense
+11	61437777	A	C	chr11_61437777_A_C	SDHAF2	synonymous_variant		Likely_benign	-1	Synonymous Variant
+11	61437778	G	A	chr11_61437778_G_A	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.186	Other Missense
+11	61437792	C	T	chr11_61437792_C_T	SDHAF2	synonymous_variant		Likely_benign	-1	Synonymous Variant
+11	61437793	C	T	chr11_61437793_C_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.947	Damaging Missense
+11	61437803	A	G	chr11_61437803_A_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.965	Damaging Missense
+11	61437809	G	A	chr11_61437809_G_A	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.984	Damaging Missense
+11	61437811	A	G	chr11_61437811_A_G	SDHAF2	missense_variant		Uncertain_significance	0.99	Damaging Missense
+11	61437821	G	A	chr11_61437821_G_A	SDHAF2	missense_variant	Likely_pathogenic	Likely_pathogenic	0.997	pLoF
+11	61437823	A	G	chr11_61437823_A_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.853	Damaging Missense
+11	61437827	T	C	chr11_61437827_T_C	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.971	Damaging Missense
+11	61437836	G	T	chr11_61437836_G_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.972	Damaging Missense
+11	61438017	G	A	chr11_61438017_G_A	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.202	Other Missense
+11	61438032	A	G	chr11_61438032_A_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.81	Damaging Missense
+11	61438048	T	TA	chr11_61438048_T_TA	SDHAF2	frameshift_variant	Pathogenic	Pathogenic	-1	pLoF
+11	61438063	G	T	chr11_61438063_G_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.444	Other Missense
+11	61438073	C	G	chr11_61438073_C_G	SDHAF2	missense_variant		Uncertain_significance	0.991	Damaging Missense
+11	61438074	G	A	chr11_61438074_G_A	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.509	Other Missense
+11	61438080	A	G	chr11_61438080_A_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.344	Other Missense
+11	61438084	A	G	chr11_61438084_A_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.41	Other Missense
+11	61438100	C	G	chr11_61438100_C_G	SDHAF2	stop_gained	Uncertain_significance	Uncertain_significance	.	pLoF
+11	61438106	G	A	chr11_61438106_G_A	SDHAF2	stop_gained	Uncertain_significance	Uncertain_significance	.	pLoF
+11	61438113	G	A	chr11_61438113_G_A	SDHAF2	missense_variant&splice_region_variant	Likely_pathogenic	Likely_pathogenic	0.321	pLoF
+11	61445952	G	C	chr11_61445952_G_C	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.221	Other Missense
+11	61445979	AT	A	chr11_61445979_AT_A	SDHAF2	frameshift_variant	Likely_pathogenic	Likely_pathogenic	-1	pLoF
+11	61445982	G	C	chr11_61445982_G_C	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.661	Other Missense
+11	61445985	C	A	chr11_61445985_C_A	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.073	Other Missense
+11	61446000	G	A	chr11_61446000_G_A	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.085	Other Missense
+11	61446000	G	C	chr11_61446000_G_C	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.958	Damaging Missense
+11	61446003	A	G	chr11_61446003_A_G	SDHAF2	missense_variant		Uncertain_significance	0.436	Other Missense
+11	61446008	CA	C	chr11_61446008_CA_C	SDHAF2	frameshift_variant	Uncertain_significance	Uncertain_significance	-1	pLoF
+11	61446014	CAA	C	chr11_61446014_CAA_C	SDHAF2	frameshift_variant	Uncertain_significance	Uncertain_significance	-1	pLoF
+11	61446017	A	C	chr11_61446017_A_C	SDHAF2	missense_variant		Likely_benign	0.752	Other Missense
+11	61446021	C	G	chr11_61446021_C_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.127	Other Missense
+11	61446023	G	T	chr11_61446023_G_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.485	Other Missense
+11	61446030	C	T	chr11_61446030_C_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.242	Other Missense
+11	61446031	G	A	chr11_61446031_G_A	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.162	Other Missense
+11	61446033	G	A	chr11_61446033_G_A	SDHAF2	missense_variant		Uncertain_significance	0.577	Other Missense
+11	61446034	C	T	chr11_61446034_C_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.588	Other Missense
+11	61446043	T	C	chr11_61446043_T_C	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.966	Damaging Missense
+11	61446046	A	C	chr11_61446046_A_C	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.327	Other Missense
+11	61446053	C	T	chr11_61446053_C_T	SDHAF2	synonymous_variant		Likely_benign	-1	Synonymous Variant
+11	61446060	A	G	chr11_61446060_A_G	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.079	Other Missense
+11	61446066	C	T	chr11_61446066_C_T	SDHAF2	missense_variant	Uncertain_significance	Uncertain_significance	0.122	Other Missense
+14	65076492	C	T	chr14_65076492_C_T	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.17	Other Missense
+14	65076534	G	A	chr14_65076534_G_A	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.242	Other Missense
+14	65076544	C	T	chr14_65076544_C_T	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.282	Other Missense
+14	65076546	G	A	chr14_65076546_G_A	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.44	Other Missense
+14	65076549	C	T	chr14_65076549_C_T	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.679	Other Missense
+14	65076556	C	T	chr14_65076556_C_T	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.595	Other Missense
+14	65076562	C	T	chr14_65076562_C_T	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.254	Other Missense
+14	65076583	C	T	chr14_65076583_C_T	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.067	Other Missense
+14	65076599	G	T	chr14_65076599_G_T	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.315	Other Missense
+14	65076600	T	C	chr14_65076600_T_C	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.05	Other Missense
+14	65076615	T	C	chr14_65076615_T_C	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.083	Other Missense
+14	65076618	T	G	chr14_65076618_T_G	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.06	Other Missense
+14	65076627	A	C	chr14_65076627_A_C	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.226	Other Missense
+14	65076628	G	C	chr14_65076628_G_C	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.067	Other Missense
+14	65076630	T	G	chr14_65076630_T_G	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.07	Other Missense
+14	65076645	G	A	chr14_65076645_G_A	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.106	Other Missense
+14	65077937	G	A	chr14_65077937_G_A	MAX	stop_gained	Pathogenic	Pathogenic	.	pLoF
+14	65077984	C	T	chr14_65077984_C_T	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.663	Other Missense
+14	65093731	C	T	chr14_65093731_C_T	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.156	Other Missense
+14	65093742	A	C	chr14_65093742_A_C	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.998	Damaging Missense
+14	65093745	C	T	chr14_65093745_C_T	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.513	Other Missense
+14	65093746	T	C	chr14_65093746_T_C	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.106	Other Missense
+14	65093817	T	C	chr14_65093817_T_C	MAX	splice_acceptor_variant	Pathogenic	Pathogenic	.	pLoF
+14	65101546	C	T	chr14_65101546_C_T	MAX	splice_region_variant&synonymous_variant		Uncertain_significance	-1	Synonymous Variant
+14	65101553	T	A	chr14_65101553_T_A	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.109	Other Missense
+14	65101553	T	G	chr14_65101553_T_G	MAX	missense_variant		Uncertain_significance	0.111	Other Missense
+14	65101568	T	C	chr14_65101568_T_C	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.355	Other Missense
+14	65102304	G	C	chr14_65102304_G_C	MAX	missense_variant&splice_region_variant	Uncertain_significance	Uncertain_significance	0.378	Other Missense
+14	65102315	C	A	chr14_65102315_C_A	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.856	Damaging Missense
+14	65102317	T	G	chr14_65102317_T_G	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.773	Other Missense
+14	65102319	G	C	chr14_65102319_G_C	MAX	missense_variant	Uncertain_significance	Uncertain_significance	0.627	Other Missense
