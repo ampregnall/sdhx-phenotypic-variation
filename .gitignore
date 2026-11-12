@@ -1,0 +1,5 @@
+/.uvr/library/
+/.uvr/activate*
+/data
+/logs
+.vscode
