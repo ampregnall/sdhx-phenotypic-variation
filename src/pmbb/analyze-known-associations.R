@@ -45,7 +45,7 @@ dt <- merge(dt, dt_smoking, by = "person_id", all.x = TRUE)
 dt <- dt[!is.na(smoking)]
 
 GENES <- c("SDHA", "SDHB", "SDHC", "SDHD", "SDHAF2", "MAX")
-COVARS <- c("age", "sex")
+COVARS <- c("age", "sex", "smoking")
 
 PHENOS <- c(
     breast = "Breast",
