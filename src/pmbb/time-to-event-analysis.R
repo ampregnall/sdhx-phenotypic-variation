@@ -1,7 +1,7 @@
 library(data.table)
 library(coxphf)
 library(survival)
-source("src/utils/all-cause-mortality.R")
+source("src/utils/survival-analysis.R")
 
 dt <- fread("data/pmbb/pmbb-time-to-event.txt")
 
