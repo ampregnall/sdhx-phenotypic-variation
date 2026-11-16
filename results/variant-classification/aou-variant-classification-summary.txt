@@ -1,0 +1,25 @@
+Gene	Consequence	N
+MAX	Damaging Missense	16
+MAX	Other Missense	80
+MAX	Synonymous Variant	10
+MAX	pLoF	12
+SDHA	pLoF	99
+SDHA	Other Missense	300
+SDHA	Synonymous Variant	26
+SDHA	Damaging Missense	207
+SDHAF2	pLoF	32
+SDHAF2	Other Missense	126
+SDHAF2	Synonymous Variant	20
+SDHAF2	Damaging Missense	44
+SDHB	Other Missense	192
+SDHB	Damaging Missense	74
+SDHB	pLoF	71
+SDHB	Synonymous Variant	14
+SDHC	pLoF	24
+SDHC	Other Missense	113
+SDHC	Synonymous Variant	12
+SDHC	Damaging Missense	21
+SDHD	Other Missense	124
+SDHD	Synonymous Variant	11
+SDHD	pLoF	22
+SDHD	Damaging Missense	11
