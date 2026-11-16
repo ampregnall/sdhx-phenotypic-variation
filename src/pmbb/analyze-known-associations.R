@@ -1,5 +1,6 @@
 library(data.table)
 library(logistf)
+source("src/utils/firth-regression.R")
 
 dt_model <- fread("data/pmbb-variants/pmbb-carrier-status-annotated.txt")
 dt_diagnoses <- fread(
