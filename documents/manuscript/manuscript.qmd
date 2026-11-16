@@ -75,7 +75,7 @@ cohorts <- tribble(
   "ukbb"  , "UKBB"      ,   469336 ,
   "pmbb"  , "PMBB"      ,    70925 ,
   "ghs"   , "GHS"       ,   227286 ,
-  "aou"   , "All of Us" , NA       ,
+  "aou"   , "All of Us" , 535662       ,
   "biovu" , "BioVU"     , NA       ,
 )
 
