@@ -23,7 +23,7 @@ dt_diagnoses <- dt_diagnoses[,
             condition_source_value
         ))),
         respiratory = as.numeric(any(grepl(
-            pattern = paste(glue("C{sprintf('%02d', 30:29)}"), collapse = "|"),
+            pattern = paste(glue("C{sprintf('%02d', 30:39)}"), collapse = "|"),
             condition_source_value
         ))),
         bone = as.numeric(any(grepl(
