@@ -1,8 +1,9 @@
 library(data.table)
 library(glue)
+library(logistf)
 source("src/utils/firth-regression.R")
 
-dt_model <- fread("data/pmbb-variants/pmbb-carrier-status-annotated.txt")
+dt_model <- fread("data/pmbb/pmbb-carrier-status-annotated.txt")
 
 dt_diagnoses <- fread(
     "/static/PMBB/PMBB-Release-2026-4.0/Phenotype/4.0/PMBB-Release-2026-4.0_phenotype_conditions_icd10.txt"
