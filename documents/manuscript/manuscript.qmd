@@ -1,0 +1,429 @@
+---
+title: "Evaluating phenotypic associations of pathogenic variants in neuroendocrine tumor hereditary risk predisposition genes"
+format:
+  # docx: default
+  typst:
+    papersize: us-letter
+    margin:
+      x: 0.75in
+      y: 0.75in
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{=typst}
+// Let long tables (wrapped in figures by Quarto) continue onto the next page.
+#show figure: set block(breakable: true)
+```
+# Contributors
+
+- Andrew M. Pregnall \[Study Design, PMBB Analysis, AOU Analysis\]
+- Jung Kim \[Study Design, Variant Annotation, UKBB Analysis, GHS Analysis\]
+- Douglas Stewart \[Study Design, Supervision\]
+- Katherine Nathanson \[Study Design, Supervision\]
+- Heather Wachtel \[Study Design, Supervision\]
+
+# Introduction
+
+Pheochromocytoma and paraganglioma are rare neuroendorcrine tumors that arise from chromaffin cells of the adrenal medulla, sympathetic chain, and parasympathetic chain. Approximately one-third of these tumors are associated with germline variants in fourteen known genes [@Fishbein2017] that impact a broad range of cellular processes including aerobic metabolism (SDHA, SDHB, SDHC, SDHD, and SDHAF2), hypoxia sensing (VHL), and cellular growth (MAX and TMEM127). Mutations in these genes are also associated with other oncologic phenotypes including renal cell carcinoma and gastrointestinal stromal tumors, and some reports have suggested an association between SDHx mutations and breast cancer or pituitary adenomas.
+
+Current screening recommendations for individuals with pathogenic variants in SDHx genes vary by organization and are limited by lack of data in several foundational areas. First, the prevalence of these mutations has not systematically been characterized, and existing estimates are largely derived from biased clinical cohorts. Second, although the penetrance of SDHB and SDHD mutations has been well-described for pheochromocytoma, paraganglioma, renal cell carcinoma, and GIST, the penetrance of *SDHA* mutations is less well understood for these phenotypes.
+
+In the current study, we focus on pathogenic mutations in succinate dehydrogenase genes (SDHx)
+
+In this study, we sought to characterize the prevalence of pathogenic mutations in SDHA, SDHB, SDHC, SDHD, SDHAF2, TMEM127, and MAX across five diverse biobanks.
+
+We ultimately report foundational data the cancer-associated risk of pathogenic mutations in SDHx genes that can be used to inform future screening guidelines.
+
+# Results
+
+## Prevalence of pathogenic variants in neuroendocrine tumor hereditary risk predisposition genes across global biobanks
+
+## Association of pathogenic variants neuroendocrine tumor hereditary risk predisposition genes with oncologic phenotypes
+
+## Cancer incidence and survival in individuals with pathogenic variants in neuroendocrine tumor hereditary risk predisposition genes
+
+# Discussion
+
+# Methods
+
+## Variant Annotation
+
+## Association Analysis
+
+## Time-to-Event Analysis
+
+# Figures and Tables
+
+```{r}
+#| label: setup
+library(readr)
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(tinytable)
+
+# One row per cohort, in display order. Result files are looked up as
+#   results/<analysis>/<id>-<analysis>.txt
+# (e.g. results/prevalence/aou-prevalence.txt). A cohort whose file does not
+# exist yet still gets its columns in every table; they are simply left blank.
+# Fill in n_total once a cohort's prevalence results are available.
+cohorts <- tribble(
+  ~id     , ~cohort     , ~n_total ,
+  "ukbb"  , "UKBB"      ,   469336 ,
+  "pmbb"  , "PMBB"      ,    70925 ,
+  "ghs"   , "GHS"       ,   227286 ,
+  "aou"   , "All of Us" , NA       ,
+  "biovu" , "BioVU"     , NA       ,
+)
+
+gene_order <- c("SDHA", "SDHB", "SDHC", "SDHD", "SDHAF2", "MAX", "TMEM127")
+
+# Read results/<analysis>/<id>-<analysis>.txt for every cohort that has one.
+# The `cohort` column is a factor over *all* cohorts so pivot_wider() can
+# create (blank) columns for cohorts with no file yet.
+read_results <- function(analysis) {
+  cohorts |>
+    mutate(
+      file = file.path("results", analysis, sprintf("%s-%s.txt", id, analysis))
+    ) |>
+    filter(file.exists(file)) |>
+    mutate(data = map(file, \(f) read_tsv(f, show_col_types = FALSE))) |>
+    select(cohort, n_total, data) |>
+    unnest(data) |>
+    select(-any_of("biobank")) |>
+    mutate(cohort = factor(cohort, levels = cohorts$cohort))
+}
+
+# Spanning headers: "UKBB (N = 469,336)" over that cohort's k sub-columns,
+# which start after `offset` leading (label) columns.
+cohort_spanners <- function(k, offset) {
+  labels <- if_else(
+    is.na(cohorts$n_total),
+    cohorts$cohort,
+    sprintf(
+      "%s (N = %s)",
+      cohorts$cohort,
+      format(cohorts$n_total, big.mark = ",", trim = TRUE)
+    )
+  )
+  setNames(
+    map(seq_len(nrow(cohorts)), \(i) offset + (i - 1) * k + seq_len(k)),
+    labels
+  )
+}
+```
+
+{{< pagebreak >}}
+
+::: landscape
+```{r}
+#| label: tbl-prevalence
+#| tbl-cap: "Carriers of pathogenic/likely pathogenic variants by gene and cohort"
+prev <- read_results("prevalence")
+
+missing_n <- setdiff(
+  unique(as.character(prev$cohort)),
+  cohorts$cohort[!is.na(cohorts$n_total)]
+)
+if (length(missing_n) > 0) {
+  stop("Set n_total in `cohorts` for: ", paste(missing_n, collapse = ", "))
+}
+
+# Sanity check: recompute prevalence (%) from counts and N
+stopifnot(isTRUE(all.equal(
+  prev$prevalence,
+  prev$n_carriers / prev$n_total * 100
+)))
+
+totals <- prev |>
+  summarise(n_carriers = sum(n_carriers), .by = c(cohort, n_total)) |>
+  mutate(gene = "Total", prevalence = n_carriers / n_total * 100)
+
+tbl <- bind_rows(prev, totals) |>
+  mutate(gene = factor(gene, levels = c(gene_order, "Total"))) |>
+  transmute(
+    gene,
+    cohort,
+    n = format(n_carriers, big.mark = ",", trim = TRUE),
+    pct = sprintf("%.3f", prevalence)
+  ) |>
+  pivot_wider(
+    names_from = cohort,
+    values_from = c(n, pct),
+    names_vary = "slowest",
+    names_expand = TRUE, # keep columns for cohorts without results
+    id_expand = TRUE, # keep every gene row, even if no cohort reports it
+    values_fill = ""
+  ) |>
+  arrange(gene) |>
+  mutate(gene = as.character(gene)) |>
+  setNames(c("Gene", rep(c("Carriers (n)", "Prevalence (%)"), nrow(cohorts))))
+
+total_row <- nrow(tbl)
+
+tt(tbl) |>
+  group_tt(j = cohort_spanners(k = 2, offset = 1)) |>
+  style_tt(j = 2:ncol(tbl), align = "c") |>
+  style_tt(i = 1:(total_row - 1), j = 1, italic = TRUE) |>
+  style_tt(i = total_row, bold = TRUE, line = "t", line_width = 0.1)
+```
+:::
+
+{{< pagebreak >}}
+
+::: landscape
+```{=typst}
+// Tighter cell padding so 5 cohorts x 3 columns fit across the page.
+#set table(inset: (x: 3pt, y: 2.5pt))
+#set par(justify: false)
+```
+```{r}
+#| label: tbl-associations
+#| tbl-cap: "Association of pathogenic/likely pathogenic variants with known, suspected, and other oncologic phenotypes"
+
+# Display order and labels. Phenotypes found in the results but not listed
+# here are appended to their section with an auto-generated label.
+sections <- c(
+  "known-associations" = "Known and suspected associations",
+  "oncologic-associations" = "Oncologic associations"
+)
+
+phenotype_labels <- c(
+  # Known associations
+  pgl = "Paraganglioma",
+  benign_pgl = "Paraganglioma (benign)",
+  pcc = "Pheochromocytoma",
+  adrenal = "Adrenal",
+  gist = "GIST",
+  renal_cell = "Renal cell carcinoma",
+  pituitary = "Pituitary",
+  breast = "Breast",
+  # Oncologic associations
+  any_cancer = "Any cancer",
+  head_neck = "Head and neck",
+  digestive = "Digestive organs",
+  respiratory = "Respiratory",
+  bone = "Bone and articular cartilage",
+  skin = "Skin",
+  melanoma = "Melanoma",
+  soft_tissue = "Mesothelial and soft tissue",
+  female_genitals = "Female genital organs",
+  male_genitals = "Male genital organs",
+  urinary = "Urinary tract",
+  cns = "Eye, brain, and CNS",
+  endocrine = "Thyroid and other endocrine",
+  illdefined = "Ill-defined and unspecified",
+  lymphoid = "Lymphoid and hematopoietic"
+)
+
+fmt_or <- function(x) {
+  case_when(
+    x < 0.01 ~ "<0.01",
+    x < 10 ~ sprintf("%.2f", x),
+    x < 100 ~ sprintf("%.1f", x),
+    TRUE ~ sprintf("%.0f", x)
+  )
+}
+
+# P-values below 0.001 as "3.2 × 10⁻⁶" (Unicode superscripts, so the text
+# survives escaping and renders the same in Typst and Word).
+superscript <- function(x) chartr("0123456789-", "⁰¹²³⁴⁵⁶⁷⁸⁹⁻", x)
+
+fmt_sci <- function(p) {
+  s <- formatC(p, format = "e", digits = 1) # e.g. "3.2e-06" (handles rounding)
+  mantissa <- sub("e.*", "", s)
+  exponent <- as.integer(sub(".*e", "", s))
+  sprintf("%s × 10%s", mantissa, superscript(as.character(exponent)))
+}
+
+fmt_p <- function(p) {
+  case_when(
+    p < 1e-16 ~ paste0("<1 × 10", superscript("-16")),
+    p < 0.001 ~ fmt_sci(p),
+    TRUE ~ sprintf("%.3f", p)
+  )
+}
+
+assoc <- imap(sections, \(label, analysis) {
+  read_results(analysis) |> mutate(section = label, .before = 1)
+}) |>
+  bind_rows() |>
+  mutate(
+    section = factor(section, levels = sections),
+    # listed phenotypes first (in listed order), then any others as they appear
+    phenotype = factor(
+      phenotype,
+      levels = unique(c(
+        intersect(names(phenotype_labels), phenotype),
+        phenotype
+      ))
+    ),
+    gene = factor(gene, levels = gene_order),
+    carriers = sprintf("%d/%d", n_case_carrier, n_ctrl_carrier),
+    or_ci = sprintf(
+      "%s (%s–%s)",
+      fmt_or(OR),
+      fmt_or(CI_lower),
+      fmt_or(CI_upper)
+    ),
+    p = fmt_p(P)
+  )
+
+tbl <- assoc |>
+  select(section, phenotype, gene, cohort, carriers, or_ci, p) |>
+  pivot_wider(
+    names_from = cohort,
+    values_from = c(carriers, or_ci, p),
+    names_vary = "slowest",
+    names_expand = TRUE, # keep columns for cohorts without results
+    values_fill = ""
+  ) |>
+  arrange(section, phenotype, gene) |>
+  mutate(
+    label = coalesce(
+      phenotype_labels[as.character(phenotype)],
+      tools::toTitleCase(gsub("_", " ", as.character(phenotype)))
+    ),
+    label = if_else(row_number() == 1, label, ""),
+    .by = c(section, phenotype)
+  )
+
+# Row groups: one header row per section. tinytable indexes rows *after*
+# the header rows are inserted, so data row r in section s sits at r + s.
+section_of_row <- as.integer(tbl$section)
+section_starts <- match(unique(section_of_row), section_of_row)
+row_groups <- setNames(
+  as.list(section_starts),
+  as.character(unique(tbl$section))
+)
+final_row <- seq_len(nrow(tbl)) + section_of_row
+first_in_pheno <- final_row[tbl$label != ""]
+section_header_rows <- section_starts + seq_along(section_starts) - 1
+
+body <- tbl |>
+  select(label, gene, starts_with(c("carriers_", "or_ci_", "p_"))) |>
+  relocate(label, gene) |>
+  mutate(gene = as.character(gene))
+body <- body[, c(
+  "label",
+  "gene",
+  unlist(map(cohorts$cohort, \(c) paste0(c("carriers_", "or_ci_", "p_"), c)))
+)]
+names(body) <- c(
+  "Phenotype",
+  "Gene",
+  rep(c("Carriers", "OR (95% CI)", "P"), nrow(cohorts))
+)
+
+tt(body) |>
+  format_tt(escape = TRUE) |> # "<0.01" would otherwise break Typst
+  group_tt(i = row_groups, j = cohort_spanners(k = 3, offset = 2)) |>
+  style_tt(fontsize = 0.7) |>
+  style_tt(j = 3:ncol(body), align = "c") |>
+  style_tt(i = final_row, j = 2, italic = TRUE) |>
+  style_tt(
+    i = setdiff(first_in_pheno, section_header_rows + 1),
+    line = "t",
+    line_width = 0.05,
+    line_color = "#bbbbbb"
+  ) |>
+  style_tt(i = section_header_rows, bold = TRUE) |>
+  style_tt(i = section_header_rows[-1], line = "t", line_width = 0.15)
+```
+:::
+
+{{< pagebreak >}}
+
+::: landscape
+```{=typst}
+// Tighter cell padding so 5 cohorts x 3 columns fit across the page.
+#set table(inset: (x: 3pt, y: 2.5pt))
+#set par(justify: false)
+```
+```{r}
+#| label: tbl-survival
+#| tbl-cap: "Time to first cancer and all-cause mortality in carriers of pathogenic/likely pathogenic variants"
+
+# Analyses shown as row groups, in display order. Each is read from
+# results/<analysis>/<id>-<analysis>.txt for every cohort (see `cohorts`).
+tte_sections <- c(
+  "time-to-cancer" = "Time to first cancer",
+  "all-cause-mortality" = "All-cause mortality"
+)
+
+# Median age at event; NA means the median was not reached.
+fmt_median <- function(x) if_else(is.na(x), "NR", sprintf("%.1f", x))
+
+tte <- imap(tte_sections, \(label, analysis) {
+  read_results(analysis) |> mutate(section = label, .before = 1)
+}) |>
+  bind_rows() |>
+  mutate(
+    section = factor(section, levels = tte_sections),
+    gene = factor(gene, levels = gene_order),
+    # A model that failed to converge (e.g. too few carriers) has no CI.
+    estimable = !is.na(HR) & !is.na(CI_lower) & !is.na(CI_upper),
+    median = sprintf(
+      "%s/%s",
+      fmt_median(median_carrier),
+      fmt_median(median_noncarrier)
+    ),
+    hr_ci = if_else(
+      estimable,
+      sprintf("%s (%s–%s)", fmt_or(HR), fmt_or(CI_lower), fmt_or(CI_upper)),
+      "NE"
+    ),
+    p = if_else(estimable, fmt_p(P), "")
+  )
+
+tbl <- tte |>
+  select(section, gene, cohort, median, hr_ci, p) |>
+  pivot_wider(
+    names_from = cohort,
+    values_from = c(median, hr_ci, p),
+    names_vary = "slowest",
+    names_expand = TRUE, # keep columns for cohorts without results
+    values_fill = ""
+  ) |>
+  arrange(section, gene)
+
+# Row groups: one header row per section; data row r in the s-th section
+# sits at r + s once tinytable inserts the header rows.
+section_idx <- match(tbl$section, unique(tbl$section))
+section_starts <- match(seq_along(unique(tbl$section)), section_idx)
+row_groups <- setNames(
+  as.list(section_starts),
+  as.character(unique(tbl$section))
+)
+final_row <- seq_len(nrow(tbl)) + section_idx
+section_header_rows <- section_starts + seq_along(section_starts) - 1
+
+body <- tbl |> mutate(gene = as.character(gene))
+body <- body[, c(
+  "gene",
+  unlist(map(cohorts$cohort, \(c) paste0(c("median_", "hr_ci_", "p_"), c)))
+)]
+names(body) <- c(
+  "Gene",
+  rep(c("Median age", "HR (95% CI)", "P"), nrow(cohorts))
+)
+
+tt(
+  body,
+  notes = paste(
+    "Median age, median age in years at event (carriers/non-carriers);",
+    "NR, not reached. HR, hazard ratio; NE, not estimable."
+  )
+) |>
+  format_tt(escape = TRUE) |>
+  group_tt(i = row_groups, j = cohort_spanners(k = 3, offset = 1)) |>
+  style_tt(fontsize = 0.7) |>
+  style_tt(j = 2:ncol(body), align = "c") |>
+  style_tt(i = final_row, j = 1, italic = TRUE) |>
+  style_tt(i = section_header_rows, bold = TRUE) |>
+  style_tt(i = section_header_rows[-1], line = "t", line_width = 0.15)
+```
+:::

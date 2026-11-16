@@ -1,0 +1,10 @@
+project:
+  type: default
+  # Run code chunks with the project root as the working directory, so paths
+  # like "results/prevalence/pmbb-prevalence.txt" work in every document.
+  execute-dir: project
+  # Only render the manuscript (otherwise `quarto render` would also pick up README.md).
+  render:
+    - documents/manuscript/manuscript.qmd
+bibliography: references.bib
+bibliographystyle: nature
