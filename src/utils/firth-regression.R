@@ -1,5 +1,6 @@
 fit_one <- function(dt, pheno, gene, genes = GENES, covars = COVARS) {
     # Drop carriers of every *other* gene
+    message(sprintf("Running regression for %s & %s", gene, pheno))
     others <- setdiff(genes, gene)
     d <- dt[rowSums(dt[, ..others]) == 0]
 
