@@ -3,3 +3,8 @@
 /data
 /logs
 .vscode
+/.quarto/
+**/*.quarto_ipynb
+*.docx
+*.pdf
+*.DS_Store
